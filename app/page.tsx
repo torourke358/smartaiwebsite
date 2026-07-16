@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import CtaBand from "@/components/CtaBand";
 import Screenshot from "@/components/Screenshot";
@@ -97,17 +98,34 @@ export default function HomePage() {
         ))}
       </section>
 
-      {/* Proof strip */}
-      {/* TODO(craig-permission): add Craig Rutkai's name + testimonial quote after written permission. */}
+      {/* Testimonial — Craig Rutkai (name, photo, quote, vessel used with permission) */}
       <section className="bg-navy">
-        <div className="mx-auto max-w-4xl px-4 py-12 text-center sm:px-6">
-          <p className="text-xl font-semibold text-white sm:text-2xl">
-            &ldquo;Two apps. $3,750 one-time. Replaced $2,400/year in
-            subscriptions and ~24 days/year of manual work.&rdquo;
-          </p>
+        <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6">
+          <figure>
+            <blockquote className="text-xl font-semibold leading-relaxed text-white sm:text-2xl">
+              &ldquo;No more shoebox of receipts — and it gives me back 24 hours
+              a month I used to spend building spreadsheets and graphs. I love
+              using it.&rdquo;
+            </blockquote>
+            <figcaption className="mt-8 flex items-center justify-center gap-4">
+              <Image
+                src="/images/craig.png"
+                alt="Craig Rutkai, Captain of the Anne Marie"
+                width={64}
+                height={64}
+                className="h-16 w-16 rounded-full object-cover ring-2 ring-white/25"
+              />
+              <div className="text-left">
+                <div className="font-bold text-white">Craig Rutkai</div>
+                <div className="text-sm text-white/70">
+                  Captain of the Anne Marie
+                </div>
+              </div>
+            </figcaption>
+          </figure>
           <Link
             href="/case-study"
-            className="mt-4 inline-block font-semibold text-accent underline-offset-4 hover:underline"
+            className="mt-8 inline-block font-semibold text-accent underline-offset-4 hover:underline"
           >
             Read the full case study →
           </Link>
