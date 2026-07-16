@@ -5,11 +5,10 @@ import { Resend } from "resend";
 export const runtime = "nodejs";
 
 const TO_EMAIL = "torourke358@hotmail.com";
-// Before smartaiforaccountants.com is verified in Resend, "onboarding@resend.dev"
-// can send to the address the Resend account was created with (Tim's Hotmail).
-// After the domain is verified, set CONTACT_FROM_EMAIL to e.g.
-// "Smart AI <hello@smartaiforaccountants.com>".
-const FROM_EMAIL = process.env.CONTACT_FROM_EMAIL || "Smart AI Website <onboarding@resend.dev>";
+// smartaiforaccountants.com is verified in Resend, so send from the domain for
+// inbox deliverability. Reply-To is set to the submitter below, so replies go
+// straight to the lead. Override with CONTACT_FROM_EMAIL if the address changes.
+const FROM_EMAIL = process.env.CONTACT_FROM_EMAIL || "Smart AI Website <hello@smartaiforaccountants.com>";
 
 function str(v: unknown): string {
   return typeof v === "string" ? v.trim() : "";
