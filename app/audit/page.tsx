@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import CalEmbed from "@/components/CalEmbed";
+import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
@@ -113,13 +113,18 @@ export default function AuditPage() {
         </div>
       </section>
 
-      {/* Cal.com inline embed */}
-      <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6" id="book">
+      {/* Contact form — emailed straight to Tim */}
+      <section className="mx-auto max-w-2xl px-4 py-16 sm:px-6" id="book">
         <h2 className="text-center text-2xl font-bold sm:text-3xl">
-          Pick a time
+          Request your free audit
         </h2>
+        <p className="mx-auto mt-4 max-w-xl text-center leading-relaxed text-navy/70">
+          Tell me how to reach you and a couple of sentences about what
+          you&rsquo;d like to talk about. It lands in my inbox right away and I
+          reply within one business day.
+        </p>
         <div className="mt-8">
-          <CalEmbed />
+          <ContactForm />
         </div>
       </section>
 
