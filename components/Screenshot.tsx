@@ -3,7 +3,7 @@ import Image from "next/image";
 type ScreenshotProps = {
   file: string; // file name inside /public/images
   alt: string;
-  aspect?: "phone" | "wide";
+  aspect?: "phone" | "wide" | "square";
 };
 
 // Gray "screenshot coming" placeholder. The PNG files in /public/images are
@@ -21,6 +21,20 @@ export default function Screenshot({ file, alt, aspect = "wide" }: ScreenshotPro
           fill
           className="object-contain"
           sizes="320px"
+        />
+      </figure>
+    );
+  }
+  if (aspect === "square") {
+    // Portrait / headshot: a 1:1 frame fits a square photo with no cropping.
+    return (
+      <figure className="relative mx-auto aspect-square w-full max-w-[300px] overflow-hidden rounded-xl border border-navy/15 bg-white shadow-sm">
+        <Image
+          src={`/images/${file}`}
+          alt={alt}
+          fill
+          className="object-cover"
+          sizes="300px"
         />
       </figure>
     );

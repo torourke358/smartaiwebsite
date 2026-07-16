@@ -52,7 +52,7 @@ export default function AboutPage() {
             captain — his crew uses the apps every day. Yours could be next.
           </p>
         </div>
-        <Screenshot file="tim-portrait.png" alt="Photo of Tim O'Rourke" />
+        <Screenshot file="tim-portrait.png" alt="Photo of Tim O'Rourke" aspect="square" />
       </section>
 
       <CtaBand />
