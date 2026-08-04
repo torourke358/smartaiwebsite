@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Pricing you can see before you call",
+  title: "Automations start in the hundreds",
   description:
-    "Single-problem apps from $1,995 fixed. Operations systems $5,000–$8,000 fixed. Optional support from $150/month. Every project fixed price, agreed in writing.",
+    "The audit is free. Automations start in the hundreds — the smallest app I've built and handed over was $750. Every project fixed price, agreed in writing before work starts.",
   openGraph: {
-    title: "Pricing you can see before you call — Smart AI Automations",
+    title: "Automations start in the hundreds — Smart AI Automations",
     description:
-      "Fixed prices, in writing, before work starts. Apps from $1,995; operations systems $5,000–$8,000.",
+      "Free audit, fixed price in writing before work starts, and you own what gets built. The smallest app I've delivered was $750.",
     url: "/pricing",
   },
 };
@@ -16,23 +16,23 @@ export const metadata: Metadata = {
 const tiers = [
   {
     name: "Single-Problem App",
-    price: "from $1,995 fixed",
+    price: "Starts in the hundreds",
     body: "One app that kills one manual process. Written scope, one price, working software in days.",
     example:
-      "Example: AI receipt capture that ended two days a month of data entry.",
+      "Example: the AI receipt capture that ended two days a month of data entry was $750.",
     featured: false,
   },
   {
     name: "Operations System",
-    price: "$5,000–$8,000 fixed",
-    body: "Multiple modules, one database — your back office in one system you own.",
+    price: "Quoted after the audit",
+    body: "Multiple modules, one database — your back office in one system you own. Priced against what the manual version is costing you today.",
     example:
       "Example: inventory + maintenance + dashboards that replaced a $2,400/year subscription.",
     featured: true,
   },
   {
     name: "Support Plan",
-    price: "$150–$500/month, optional",
+    price: "Optional, always",
     body: "Hosting, monitoring, fixes, small improvements. Or take the keys and run it yourself — your code, your data, either way.",
     example: "",
     featured: false,
@@ -45,11 +45,14 @@ export default function PricingPage() {
       <section className="bg-navy/5">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6 md:py-24">
           <h1 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-            Pricing you can see before you call.
+            Automations start in the hundreds.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Agencies hide pricing because their projects start at $10,000 and
-            run for months. Ours don&rsquo;t, so here it is.
+            Agencies open at $10,000 and run for months. The smallest app
+            I&rsquo;ve built and handed over was <strong>$750</strong> &mdash;
+            and it&rsquo;s the one that gave a captain back two days a month.
+            The audit is free, and you get one fixed price in writing before
+            anything starts.
           </p>
         </div>
       </section>
@@ -95,8 +98,8 @@ export default function PricingPage() {
         <p className="mx-auto mt-10 max-w-3xl text-center text-lg leading-relaxed text-navy/80">
           Every project is fixed price, agreed in writing before work starts.
           If scope grows, we re-quote — you&rsquo;ll never get a surprise
-          invoice. Consulting at $175/hr available when a fixed price
-          doesn&rsquo;t fit.
+          invoice. The price comes from what the manual version costs you, so
+          the only way to know it is the free 45-minute audit.
         </p>
       </section>
 

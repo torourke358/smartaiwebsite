@@ -9,7 +9,7 @@ import { calHref } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Smart AI Automations — Replace the software you rent with systems you own",
   description:
-    "Custom apps for small businesses — fixed price, delivered in days, AI built in. One client cut a $200/month subscription and got back two days a month for under $4,000, one time.",
+    "Custom apps for small businesses — fixed price, delivered in days, AI built in. Automations start in the hundreds. One client cut a $200/month subscription and got back two days a month.",
   openGraph: {
     title: "Smart AI Automations — Custom apps for small businesses",
     description:
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const cards = [
   {
     title: "Kill a manual process.",
-    body: "A crew was hand-typing receipts for two days a month. Now they photograph them, AI does the rest, and the report exports itself. From $1,995.",
+    body: "A crew was hand-typing receipts for two days a month. Now they photograph them, AI does the rest, and the report exports itself. That one was $750.",
   },
   {
     title: "Replace a subscription.",
@@ -44,8 +44,9 @@ export default function HomePage() {
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
             Custom apps for small businesses — fixed price, delivered in days,
-            AI built in. One client cut a $200/month subscription and got back
-            two days a month of manual work for under $4,000, one time.
+            AI built in. Automations start in the hundreds. One client cut a
+            $200/month subscription and got back two days a month of manual
+            work.
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <Link

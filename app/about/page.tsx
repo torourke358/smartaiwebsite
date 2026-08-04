@@ -5,7 +5,7 @@ import Screenshot from "@/components/Screenshot";
 export const metadata: Metadata = {
   title: "About — The bookkeeper who got tired of typing",
   description:
-    "Tim O'Rourke: 15 years of small-business bookkeeping, MBA in Accountancy from DePaul, U.S. Army veteran — now building custom software small businesses can say yes to.",
+    "Tim O'Rourke: 15 years of small-business bookkeeping, MBA in Accountancy from DePaul — now building custom software small businesses can say yes to.",
   openGraph: {
     title: "About Tim O'Rourke — Smart AI Automations",
     description:
@@ -30,9 +30,9 @@ export default function AboutPage() {
           <p>
             I&rsquo;m Tim O&rsquo;Rourke. I spent 15 years doing small-business
             bookkeeping — my own fractional practice, plus office-manager and
-            accountant roles before that. MBA in Accountancy from DePaul. U.S.
-            Army veteran. I know what a shoebox of receipts looks like in
-            February, because I was the one typing it in.
+            accountant roles before that. MBA in Accountancy from DePaul. I know
+            what a shoebox of receipts looks like in February, because I was the
+            one typing it in.
           </p>
           <p>
             A year ago I taught myself to build software to automate the work I
