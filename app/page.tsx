@@ -148,9 +148,11 @@ export default function HomePage() {
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
             Owner-operated businesses, roughly 3–50 people, with at least one
             process that runs on spreadsheets, paper, or software that almost
-            fits. Trades, charter &amp; marine, professional practices,
-            logistics, specialty retail — if you can describe the problem, we
-            can usually show you working software the same week.
+            fits. Landscaping &amp; tree care, the trades, restoration shops,
+            charter &amp; marine, professional practices — if your crews
+            collect receipts, your equipment is serviced by hours, or your
+            month-end lives in a spreadsheet, we can usually show you working
+            software the same week.
           </p>
         </div>
       </section>

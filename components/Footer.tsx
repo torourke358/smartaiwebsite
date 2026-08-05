@@ -33,8 +33,9 @@ export default function Footer() {
 
         <div className="text-sm text-white/70">
           <p>Tim O&rsquo;Rourke &middot; Lake Bluff, IL</p>
-          <p>Serving Chicagoland and beyond</p>
-          <p className="mt-2">hello@smartaiautomations.com</p>
+          <p>Serving Lake County and Chicagoland</p>
+          <p className="mt-2">847-894-1056</p>
+          <p>torourke358@hotmail.com</p>
           <a
             href={linkedInUrl}
             className="mt-3 inline-flex items-center gap-2 text-white/80 transition-colors hover:text-accent"

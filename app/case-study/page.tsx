@@ -7,11 +7,11 @@ import { calHref } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Case Study — Two days a month back, $2,400/year cancelled",
   description:
-    "How a charter yacht captain got two days a month back and cancelled a $2,400/year subscription. Two custom apps. One database. $3,750, one time.",
+    "How a charter yacht captain got two days a month back and cancelled a $2,400/year subscription. Three custom apps. One database. $7,250, one time — and he came back for a fourth build.",
   openGraph: {
     title: "Case Study — How a charter yacht captain got two days a month back",
     description:
-      "Two custom apps. One database. $3,750, one time. Replaced a $2,400/year subscription and ~24 days/year of manual work.",
+      "Three custom apps. One database. $7,250, one time. Replaced a $2,400/year subscription and ~24 days/year of manual work — and he came back for a fourth build.",
     url: "/case-study",
   },
 };
@@ -43,9 +43,14 @@ const results = [
     after: "Calendar- and engine-hours-based, with history",
   },
   {
+    metric: "Yard-period planning",
+    before: "Memory, whiteboards, and old spreadsheets",
+    after: "Photograph the space → ordered work plan → scheduled tasks",
+  },
+  {
     metric: "Total investment",
     before: "$2,400 every year, forever",
-    after: "$3,750 one time",
+    after: "$7,250 one time, three apps",
   },
 ];
 
@@ -61,7 +66,7 @@ export default function CaseStudyPage() {
             cancelled a $2,400/year subscription.
           </h1>
           <p className="mt-6 text-xl text-navy/80">
-            Two custom apps. One database. $3,750, one time.
+            Three custom apps. One database. $7,250, one time.
           </p>
         </div>
       </section>
@@ -133,7 +138,9 @@ export default function CaseStudyPage() {
             </div>
           </div>
           <div className="rounded-xl border border-navy/10 bg-white p-8 shadow-sm">
-            <h3 className="text-xl font-bold">App 2 — Vessel Operations ($3,000)</h3>
+            <h3 className="text-xl font-bold">
+              App 2 — Vessel Operations ($6,500, with App 3)
+            </h3>
             <p className="mt-3 leading-relaxed text-navy/80">
               Inventory with a critical threshold on every item — when the
               varnish runs low, he gets an alert before it&rsquo;s a problem. An
@@ -148,6 +155,25 @@ export default function CaseStudyPage() {
               <Screenshot file="vessel-dashboard.png" alt="Yard-period quad dashboard" />
             </div>
           </div>
+        </div>
+
+        {/* App 3 — he came back */}
+        <div className="mt-8 rounded-xl border border-navy/10 bg-white p-8 shadow-sm">
+          <h3 className="text-xl font-bold">
+            App 3 — AI Dry-Dock Planner (the one he came back for)
+          </h3>
+          <p className="mt-3 leading-relaxed text-navy/80">
+            Then he brought a harder problem: planning a yard period. Now he
+            photographs the engine room and the AI produces a disassembly plan
+            in the right order — flagging, for example, that the
+            air-conditioning unit has to come out <em>before</em> engine work
+            starts, because the AC contractor books out about two weeks. Miss
+            that dependency and the whole yard period stalls. The plan converts
+            straight into scheduled yard tasks in the same system, and his
+            years of inventory and yard-period spreadsheets imported in. Apps 2
+            and 3 together came to $6,500 — the whole three-app system,
+            <strong> $7,250, one time</strong>.
+          </p>
         </div>
 
         {/* Callout */}
@@ -196,15 +222,30 @@ export default function CaseStudyPage() {
             </table>
           </div>
           <p className="mt-8 text-lg leading-relaxed text-navy/80">
-            The operations app pays for itself against the cancelled
-            subscription in about 15 months. Every month after that is $200
-            back in his pocket — for software that does more than what it
-            replaced. The petty cash app paid for itself in roughly the first
-            month of recovered time. And it didn&rsquo;t end at delivery: his
-            third app is already scoped. That&rsquo;s how this works — solve
-            one problem, earn the next one.
+            The petty cash app paid for itself in roughly the first month of
+            recovered time. The operations system cancelled the $2,400-a-year
+            subscription — and then kept growing: when the next problem
+            (yard-period planning) came up, it was an expansion of a system he
+            owns, not another subscription. And it didn&rsquo;t stop there. His
+            fourth build is live too — a different problem in a different
+            domain entirely. That&rsquo;s how this works: solve one problem,
+            earn the next one.
           </p>
         </div>
+      </section>
+
+      {/* The fourth build */}
+      <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
+        <h2 className="text-2xl font-bold sm:text-3xl">The fourth build</h2>
+        <p className="mt-6 text-lg leading-relaxed text-navy/80">
+          The same client&rsquo;s latest project has nothing to do with boats: a
+          futures-trading journal with an AI coach. A P&amp;L calendar built
+          from his actual fills, AI analysis that diagnoses what&rsquo;s going
+          wrong in plain language, and trading rules mined from his own journal
+          that he approves before the system enforces them. Different domain,
+          same reason he came back — software shaped around how one specific
+          person actually works, owned outright.
+        </p>
       </section>
 
       {/* Pull quote */}

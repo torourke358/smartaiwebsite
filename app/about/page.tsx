@@ -49,7 +49,8 @@ export default function AboutPage() {
           </p>
           <p>
             I live in Lake Bluff, Illinois. First client was a charter yacht
-            captain — his crew uses the apps every day. Yours could be next.
+            captain — four builds later, his crew uses the apps every day.
+            Yours could be next.
           </p>
         </div>
         <Screenshot file="tim-portrait.png" alt="Photo of Tim O'Rourke" aspect="square" />

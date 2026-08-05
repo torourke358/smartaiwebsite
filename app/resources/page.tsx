@@ -14,12 +14,6 @@ export const metadata: Metadata = {
   },
 };
 
-const upcomingPosts = [
-  "Custom App vs. SaaS: the 3-Year Math",
-  "What a Custom App Actually Costs in 2026 (Real Prices)",
-  "How a Yacht Captain Cancelled His Software Subscription",
-];
-
 export default function ResourcesPage() {
   return (
     <>
@@ -38,25 +32,6 @@ export default function ResourcesPage() {
 
       <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
         <MailerLiteForm />
-      </section>
-
-      <section className="bg-navy/5">
-        <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
-          <h2 className="text-center text-2xl font-bold sm:text-3xl">
-            Articles coming soon
-          </h2>
-          <ul className="mt-8 space-y-4">
-            {upcomingPosts.map((title) => (
-              <li
-                key={title}
-                className="rounded-xl border border-navy/10 bg-white p-6 shadow-sm"
-              >
-                <p className="text-lg font-semibold">{title}</p>
-                <p className="mt-1 text-sm text-navy/50">Coming soon</p>
-              </li>
-            ))}
-          </ul>
-        </div>
       </section>
 
       <CtaBand />
