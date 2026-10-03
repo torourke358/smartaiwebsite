@@ -186,7 +186,7 @@ These are also saved separately as `docs/ai-prompts-to-track.md` (to be created 
 
 ## Decisions (Tim, 2026-10-03) and Phase 2 status
 
-- **Name:** "Smart AI Bookkeeping". Tagline: "Accounting automation for small businesses". The domain stays smartaiforaccountants.com for now. smartaibookkeeping.com is already registered by someone else; smartaibookkeeping.ai appeared unregistered on 2026-10-03.
+- **Name:** "Smart AI Bookkeeping". Tagline: "Accounting automation for small businesses". **Domain: keep smartaiforaccountants.com** (Tim's final decision, 2026-10-03). No new domain.
 - **Pricing:**
   - $2,500 one-time setup per business.
   - **Optional** upkeep from $175/month, for about 1 hour of upkeep a month.
