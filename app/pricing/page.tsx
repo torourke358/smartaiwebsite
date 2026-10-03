@@ -82,11 +82,32 @@ export default function PricingPage() {
             </div>
           ))}
         </div>
+        <div className="mx-auto mt-12 grid max-w-5xl gap-8 md:grid-cols-2">
+          <div>
+            <h2 className="text-2xl font-bold">What the $2,500 setup includes</h2>
+            <ul className="mt-4 space-y-2 text-lg leading-relaxed text-navy/80">
+              <li>One business and the accounting system you already use</li>
+              <li>Up to 3 automated workflows, chosen on the free call</li>
+              <li>Up to 5 bank and credit-card accounts connected</li>
+              <li>Testing on your own data and a 1-hour handoff walkthrough</li>
+              <li>30 days of fixes after handoff</li>
+              <li>About 2–4 weeks from the day access is granted</li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="text-2xl font-bold">Quoted separately</h2>
+            <ul className="mt-4 space-y-2 text-lg leading-relaxed text-navy/80">
+              <li>Catching up or cleaning up past months</li>
+              <li>Additional businesses, or more than 3 workflows</li>
+              <li>Ongoing bookkeeping work</li>
+            </ul>
+            <p className="mt-4 leading-relaxed text-navy/70">
+              Payment is 50% at signing and 50% at handoff. Time beyond the
+              included upkeep hour is $175/hour, only with your OK first.
+            </p>
+          </div>
+        </div>
         <div className="mx-auto mt-10 max-w-3xl space-y-4">
-          <Todo>
-            Say what the $2,500 setup includes and what would put a business
-            outside it (entities, bank accounts, software connections).
-          </Todo>
           <Todo>Add how bookkeeping work is priced, or a starting price.</Todo>
         </div>
         <p className="mx-auto mt-10 max-w-3xl text-center text-lg leading-relaxed text-navy/80">

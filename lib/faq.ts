@@ -56,8 +56,15 @@ export const faqSections: { heading: string; items: FaqItem[] }[] = [
       },
       {
         q: "Is it a fixed price?",
-        a: "Yes. Setup is a fixed $2,500 per business, and optional upkeep starts at a flat $175/month.",
-        todo: "Confirm what the $2,500 includes and when a business would be outside it (number of entities, bank accounts, integrations).",
+        a: "Yes. Setup is a fixed $2,500 per business, and optional upkeep starts at a flat $175/month. Payment is 50% at signing and 50% at handoff.",
+      },
+      {
+        q: "What does the $2,500 setup include?",
+        a: "The $2,500 setup covers one business and its existing accounting system, up to 3 automated workflows, and up to 5 bank and credit-card accounts. It includes testing on your own data, a 1-hour handoff walkthrough and 30 days of fixes. Catch-up of past months, extra businesses and ongoing bookkeeping are quoted separately.",
+      },
+      {
+        q: "How long does setup take?",
+        a: "Setup takes about 2–4 weeks from the day you grant access to your accounting system and accounts.",
       },
     ],
   },
