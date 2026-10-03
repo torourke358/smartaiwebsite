@@ -11,9 +11,12 @@ export type Industry = {
   automations: string[];
   experience: string[];
   testimonialTodo: string;
+  // Hidden pages are not built, listed or linked. Medical is hidden until
+  // Tim confirms how patient information (HIPAA) is kept out of the work.
+  hidden?: boolean;
 };
 
-export const industries: Industry[] = [
+const allIndustries: Industry[] = [
   {
     slug: "restaurants",
     name: "Restaurants",
@@ -100,6 +103,7 @@ export const industries: Industry[] = [
   },
   {
     slug: "medical-practices",
+    hidden: true,
     name: "Medical practices",
     title: "Medical Practice Bookkeeping Automation near Chicago",
     description:
@@ -141,6 +145,8 @@ export const industries: Industry[] = [
       "Add a real medical-practice client quote or result here, or delete this box. Also confirm how patient information is kept out of the automations (HIPAA) before this page goes live.",
   },
 ];
+
+export const industries = allIndustries.filter((industry) => !industry.hidden);
 
 export function getIndustry(slug: string) {
   return industries.find((industry) => industry.slug === slug);

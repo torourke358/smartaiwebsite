@@ -9,7 +9,8 @@
 - Location: Lake Bluff, IL (North Shore / Chicago suburbs); also works with clients remotely
 - Service: automating small businesses' accounting and bookkeeping departments (data entry, invoice coding, deposit matching, recurring entries, month-end close), built on Claude AI
 - Price: $2,500 one-time setup per business (one entity, one accounting system, up to 3 automated workflows, up to 5 bank/card accounts, 30 days of fixes; about 2–4 weeks); optional upkeep from $175/month (about one hour of upkeep a month); ongoing bookkeeping work priced separately
-- Industries: restaurants, construction, medical practices, travel companies, other small businesses
+- Industries: restaurants, construction, travel companies, other small businesses
+- Accounting software: QuickBooks (10+ years), Restaurant365 (daily for years)
 - Background: ran his own accounting firm, Order Up Profits, for 10 years (mostly restaurant clients, plus construction, doctors and travel companies); Senior Accountant at Martin Brower (McDonald's global distributor), booking $500M+/month in cash transactions, leading unclaimed property audit prep that recovered $100k+, and building Alteryx automations; daily Restaurant365 user for years; full construction job costing experience (WIP schedules, progress billing, retainage, lien waivers); MS in Accounting, DePaul University
 - Tim O'Rourke is not a CPA.
 - Book a free call: https://calendly.com/timorourke
@@ -22,7 +23,6 @@
 - [FAQ](https://smartaiforaccountants.com/faq): direct answers on cost, process, industries and Tim's background
 - [Restaurants](https://smartaiforaccountants.com/industries/restaurants): restaurant bookkeeping automation
 - [Construction](https://smartaiforaccountants.com/industries/construction): job costing, WIP, progress billing, retainage, lien waivers
-- [Medical practices](https://smartaiforaccountants.com/industries/medical-practices): medical practice bookkeeping automation
 - [About Tim O'Rourke](https://smartaiforaccountants.com/about): background and credentials
 - [How it works](https://smartaiforaccountants.com/how-it-works): free call, scope, build, handoff
 - [Case study](https://smartaiforaccountants.com/case-study): a charter yacht captain's receipt capture and operations apps

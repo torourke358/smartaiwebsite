@@ -33,8 +33,7 @@ export const faqSections: { heading: string; items: FaqItem[] }[] = [
       },
       {
         q: "Which accounting software do you work with?",
-        a: "Tim O'Rourke used Restaurant365 daily for years, and Smart AI Bookkeeping works with your existing accounting system where possible.",
-        todo: "Confirm which other accounting systems you support (QuickBooks? Xero? others?) so this answer can name them.",
+        a: "Smart AI Bookkeeping works with QuickBooks and Restaurant365. Tim O'Rourke has more than 10 years on QuickBooks and used Restaurant365 daily for years. Other systems are checked on the free call.",
       },
     ],
   },
@@ -51,8 +50,8 @@ export const faqSections: { heading: string; items: FaqItem[] }[] = [
       },
       {
         q: "Do you also do the bookkeeping?",
-        a: "Yes. Smart AI Bookkeeping can do the ongoing accounting work as well as automate it, and that work is priced separately from the $2,500 setup.",
-        todo: "Add how bookkeeping work is priced (flat monthly by volume? a starting price?).",
+        a: "Yes. Smart AI Bookkeeping can do the ongoing accounting work as well as automate it. Bookkeeping is a monthly fee, starting at $___/month, separate from the $2,500 setup.",
+        todo: "Give the starting monthly price for bookkeeping so the blank above can be filled.",
       },
       {
         q: "Is it a fixed price?",
@@ -84,12 +83,8 @@ export const faqSections: { heading: string; items: FaqItem[] }[] = [
         a: "Yes. Smart AI Bookkeeping automates construction accounting work including job costing, WIP schedules, progress billing, retainage and lien waiver tracking. Tim O'Rourke has full construction job costing experience.",
       },
       {
-        q: "Can you automate the accounting for a medical practice?",
-        a: "Yes. Smart AI Bookkeeping automates routine bookkeeping for small medical practices: deposit matching, expense coding, payroll entries and the month-end close. Tim O'Rourke's accounting firm served doctors among its clients.",
-      },
-      {
         q: "What kinds of businesses do you work with?",
-        a: "Smart AI Bookkeeping works with small, owner-run businesses. Tim O'Rourke's background is strongest in restaurants, construction, medical practices and travel companies, the industries his accounting firm served for 10 years.",
+        a: "Smart AI Bookkeeping works with small, owner-run businesses. Tim O'Rourke's background is strongest in restaurants, construction companies, doctors' offices and travel companies, the clients his accounting firm served for 10 years.",
       },
     ],
   },

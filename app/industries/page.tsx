@@ -4,14 +4,14 @@ import CtaBand from "@/components/CtaBand";
 import { industries } from "@/lib/industries";
 
 export const metadata: Metadata = {
-  title: "Industries: Restaurants, Construction & Medical Practices",
+  title: "Industries: Restaurant & Construction Accounting Automation",
   description:
-    "Smart AI Bookkeeping automates accounting for restaurants, construction companies, medical practices, travel companies and other small businesses in the Chicago suburbs and remotely.",
+    "Smart AI Bookkeeping automates accounting for restaurants, construction companies, travel companies and other small businesses in the Chicago suburbs and remotely.",
   alternates: { canonical: "/industries" },
   openGraph: {
     title: "Industries we automate | Smart AI Bookkeeping",
     description:
-      "Accounting automation for restaurants, construction companies, medical practices and other small businesses.",
+      "Accounting automation for restaurants, construction companies and other small businesses.",
     url: "/industries",
   },
 };
@@ -33,7 +33,7 @@ export default function IndustriesPage() {
         </div>
       </section>
 
-      <section className="mx-auto grid max-w-6xl gap-6 px-4 py-16 sm:px-6 md:grid-cols-3">
+      <section className="mx-auto grid max-w-4xl gap-6 px-4 py-16 sm:px-6 md:grid-cols-2">
         {industries.map((industry) => (
           <Link
             key={industry.slug}

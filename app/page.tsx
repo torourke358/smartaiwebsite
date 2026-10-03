@@ -34,9 +34,9 @@ const cards = [
     body: "Job costing, WIP schedules, progress billing, retainage and lien waivers.",
   },
   {
-    title: "Medical practices",
-    href: "/industries/medical-practices",
-    body: "Deposit matching, expense coding, payroll entries and a faster month-end close.",
+    title: "Other small businesses",
+    href: "/industries",
+    body: "Entering bills, matching deposits, recording payroll and closing the month, for travel companies and other owner-run businesses.",
   },
 ];
 
@@ -166,7 +166,7 @@ export default function HomePage() {
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
             Owner-run small businesses whose books still depend on
             hand-typed entries, spreadsheets and a month-end that drags.
-            Restaurants, construction companies, medical practices, travel
+            Restaurants, construction companies, travel
             companies and other small businesses, on the North Shore, in the
             Chicago suburbs, or anywhere remotely.
           </p>

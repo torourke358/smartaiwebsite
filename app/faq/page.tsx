@@ -8,7 +8,7 @@ import { faqJsonLd } from "@/lib/schema";
 export const metadata: Metadata = {
   title: "Bookkeeping Automation FAQ: Cost, Industries, Process",
   description:
-    "Straight answers about Smart AI Bookkeeping: what gets automated, the $2,500 setup and $175/month optional upkeep, restaurants, construction and medical practices, and who Tim O'Rourke is.",
+    "Straight answers about Smart AI Bookkeeping: what gets automated, the $2,500 setup and $175/month optional upkeep, restaurants and construction, and who Tim O'Rourke is.",
   alternates: { canonical: "/faq" },
   openGraph: {
     title: "Bookkeeping Automation FAQ | Smart AI Bookkeeping",

@@ -30,7 +30,7 @@ const tiers = [
   },
   {
     name: "Bookkeeping work",
-    price: "Priced separately",
+    price: "Starting at $___/month",
     body: "Optional. If you'd rather not run the books yourself, Tim does the ongoing accounting work as well.",
     featured: false,
   },
@@ -108,7 +108,7 @@ export default function PricingPage() {
           </div>
         </div>
         <div className="mx-auto mt-10 max-w-3xl space-y-4">
-          <Todo>Add how bookkeeping work is priced, or a starting price.</Todo>
+          <Todo>Give the starting monthly price for bookkeeping work.</Todo>
         </div>
         <p className="mx-auto mt-10 max-w-3xl text-center text-lg leading-relaxed text-navy/80">
           Upkeep is optional. You own what gets built, and you can keep it

@@ -59,7 +59,7 @@ export const siteJsonLd = {
         "Construction job costing",
         "WIP schedules",
         "Progress billing and retainage",
-        "Medical practice bookkeeping",
+        "QuickBooks",
         "Claude AI",
       ],
       makesOffer: {

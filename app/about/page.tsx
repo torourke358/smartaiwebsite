@@ -107,10 +107,6 @@ export default function AboutPage() {
             <Link href="/industries/construction" className="font-semibold underline-offset-4 hover:underline">
               construction
             </Link>
-            ,{" "}
-            <Link href="/industries/medical-practices" className="font-semibold underline-offset-4 hover:underline">
-              medical practices
-            </Link>
             . Or{" "}
             <Link href={calHref} className="font-semibold underline-offset-4 hover:underline">
               book a free call
