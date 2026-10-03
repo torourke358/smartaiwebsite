@@ -10,7 +10,8 @@ export type Industry = {
   painPoints: { title: string; body: string }[];
   automations: string[];
   experience: string[];
-  testimonialTodo: string;
+  quote?: { text: string; name: string; role: string };
+  testimonialTodo?: string;
   // Hidden pages are not built, listed or linked. Medical is hidden until
   // Tim confirms how patient information (HIPAA) is kept out of the work.
   hidden?: boolean;
@@ -56,8 +57,14 @@ const allIndustries: Industry[] = [
       "Daily Restaurant365 user for years.",
       "Senior Accountant at Martin Brower, McDonald's global distributor, booking $500M+ a month in cash transactions.",
     ],
-    testimonialTodo:
-      "Add a real restaurant client quote or result here, or delete this box.",
+    // Verbatim excerpt of Tomislav Lokvicic's LinkedIn recommendation
+    // (May 14, 2019; he managed Tim directly at Tanta Chicago). Tim supplied it
+    // as his restaurant recommendation on 2026-10-03.
+    quote: {
+      text: "From the start he took over all daily accounting activities including invoice and sales entry, weekly check runs, and making adjusting entries and pulling reports. … By the time Tim left Tanta, he was preparing weekly P&Ls, meeting with owners and the management team, creating cash forecasts, as well as revenue center and break-even analysis as we added weekend brunch and weekday lunch service.",
+      name: "Tomislav Lokvicic",
+      role: "Managed Tim directly at Tanta Chicago · LinkedIn recommendation, 2019",
+    },
   },
   {
     slug: "construction",
@@ -98,8 +105,6 @@ const allIndustries: Industry[] = [
       "Ran his own accounting firm, Order Up Profits, for 10 years, with construction clients.",
       "MS in Accounting, DePaul University.",
     ],
-    testimonialTodo:
-      "Add a real construction client quote or result here, or delete this box.",
   },
   {
     slug: "medical-practices",

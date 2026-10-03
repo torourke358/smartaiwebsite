@@ -28,7 +28,7 @@ const steps = [
   },
   {
     title: "What it costs",
-    body: "A one-time $2,500 setup, optional upkeep from $175/month, and bookkeeping work priced separately if you want it.",
+    body: "A one-time $2,500 setup, optional upkeep from $175/month, and bookkeeping work from $175/month if you want it.",
   },
 ];
 

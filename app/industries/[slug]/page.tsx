@@ -142,15 +142,29 @@ export default function IndustryPage({ params }: Props) {
           Setup is a one-time <strong>$2,500</strong> per business. Upkeep is
           optional and starts at <strong>$175/month</strong> for about an hour
           of upkeep a month. If you also want the bookkeeping done for you,
-          that work is priced separately.{" "}
+          that work starts at <strong>$175/month</strong>.{" "}
           <Link href="/pricing" className="font-semibold underline-offset-4 hover:underline">
             See pricing
           </Link>
           .
         </p>
-        <div className="mt-8">
-          <Todo>{industry.testimonialTodo}</Todo>
-        </div>
+        {industry.quote && (
+          <figure className="mt-10 rounded-xl border border-navy/10 bg-navy/5 p-8">
+            <blockquote className="text-lg leading-relaxed text-navy">
+              &ldquo;{industry.quote.text}&rdquo;
+            </blockquote>
+            <figcaption className="mt-4 text-sm text-navy/70">
+              <span className="font-bold text-navy">{industry.quote.name}</span>
+              <br />
+              {industry.quote.role}
+            </figcaption>
+          </figure>
+        )}
+        {industry.testimonialTodo && (
+          <div className="mt-8">
+            <Todo>{industry.testimonialTodo}</Todo>
+          </div>
+        )}
       </section>
 
       <CtaBand />

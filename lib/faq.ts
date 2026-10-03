@@ -21,7 +21,7 @@ export const faqSections: { heading: string; items: FaqItem[] }[] = [
       },
       {
         q: "Can AI really do my bookkeeping?",
-        a: "AI can handle much of the repetitive bookkeeping, but your books still need someone accountable for them. Smart AI Bookkeeping uses Claude AI for the routine steps and can also provide the ongoing bookkeeping work itself, priced separately.",
+        a: "AI can handle much of the repetitive bookkeeping, but your books still need someone accountable for them. Smart AI Bookkeeping uses Claude AI for the routine steps and can also provide the ongoing bookkeeping work itself, starting at $175/month.",
       },
       {
         q: "What AI do you use?",
@@ -29,7 +29,7 @@ export const faqSections: { heading: string; items: FaqItem[] }[] = [
       },
       {
         q: "Will this replace my bookkeeper?",
-        a: "It takes the repetitive entry work off your bookkeeper's plate. For many small businesses that means a bookkeeper's time goes to review and decisions instead of typing. If you don't have a bookkeeper, Smart AI Bookkeeping can do the ongoing work for you, priced separately.",
+        a: "It takes the repetitive entry work off your bookkeeper's plate. For many small businesses that means a bookkeeper's time goes to review and decisions instead of typing. If you don't have a bookkeeper, Smart AI Bookkeeping can do the ongoing work for you, starting at $175/month.",
       },
       {
         q: "Which accounting software do you work with?",
@@ -42,7 +42,7 @@ export const faqSections: { heading: string; items: FaqItem[] }[] = [
     items: [
       {
         q: "How much does it cost to automate a small business's accounting department?",
-        a: "Smart AI Bookkeeping charges a one-time $2,500 setup per business. Upkeep is optional and starts at $175/month, which covers about an hour of upkeep a month. Ongoing bookkeeping work, if you want it done for you, is priced separately.",
+        a: "Smart AI Bookkeeping charges a one-time $2,500 setup per business. Upkeep is optional and starts at $175/month, which covers about an hour of upkeep a month. Ongoing bookkeeping work, if you want it done for you, starts at $175/month.",
       },
       {
         q: "What does the $175/month upkeep include?",
@@ -50,8 +50,7 @@ export const faqSections: { heading: string; items: FaqItem[] }[] = [
       },
       {
         q: "Do you also do the bookkeeping?",
-        a: "Yes. Smart AI Bookkeeping can do the ongoing accounting work as well as automate it. Bookkeeping is a monthly fee, starting at $___/month, separate from the $2,500 setup.",
-        todo: "Give the starting monthly price for bookkeeping so the blank above can be filled.",
+        a: "Yes. Smart AI Bookkeeping can do the ongoing accounting work as well as automate it. Bookkeeping is a monthly fee starting at $175/month, separate from the $2,500 setup.",
       },
       {
         q: "Is it a fixed price?",
@@ -105,7 +104,7 @@ export const faqSections: { heading: string; items: FaqItem[] }[] = [
       },
       {
         q: "How do I get started?",
-        a: "Book a free call at calendly.com/timorourke. On the call, Tim walks through how your accounting department runs today and which parts can be automated.",
+        a: "Book a free 20-minute call at calendly.com/timorourke/new-meeting-1. On the call, Tim walks through how your accounting department runs today and which parts can be automated.",
       },
     ],
   },

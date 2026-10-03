@@ -13,6 +13,7 @@ export const serviceArea = "the North Shore and Chicago suburbs, and remotely";
 
 export const setupPrice = "$2,500";
 export const upkeepPrice = "$175/month";
+export const bookkeepingFromPrice = "$175/month";
 
 // One-sentence description reused in metadata, structured data and llms.txt.
 export const businessDescription =
@@ -21,7 +22,7 @@ export const businessDescription =
 export const email = "torourke358@hotmail.com";
 export const phone = "847-894-1056";
 
-export const bookingUrl = "https://calendly.com/timorourke";
+export const bookingUrl = "https://calendly.com/timorourke/new-meeting-1";
 // Booking buttons go straight to Calendly. The /audit page keeps the contact
 // form for people who'd rather write than pick a time.
 export const calHref = bookingUrl;

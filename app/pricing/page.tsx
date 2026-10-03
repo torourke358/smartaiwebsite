@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
 import CtaBand from "@/components/CtaBand";
-import Todo from "@/components/Todo";
 
 export const metadata: Metadata = {
   title: "Pricing: $2,500 Setup, Optional Upkeep from $175/Month",
   description:
-    "Smart AI Bookkeeping pricing: a one-time $2,500 setup to automate your accounting department, optional upkeep from $175/month, and bookkeeping work priced separately.",
+    "Smart AI Bookkeeping pricing: a one-time $2,500 setup to automate your accounting department, optional upkeep from $175/month, and bookkeeping work from $175/month.",
   alternates: { canonical: "/pricing" },
   openGraph: {
     title: "Pricing | Smart AI Bookkeeping",
     description:
-      "One-time $2,500 setup. Optional upkeep from $175/month. Bookkeeping work priced separately.",
+      "One-time $2,500 setup. Optional upkeep from $175/month. Bookkeeping work from $175/month.",
     url: "/pricing",
   },
 };
@@ -30,7 +29,7 @@ const tiers = [
   },
   {
     name: "Bookkeeping work",
-    price: "Starting at $___/month",
+    price: "Starting at $175/month",
     body: "Optional. If you'd rather not run the books yourself, Tim does the ongoing accounting work as well.",
     featured: false,
   },
@@ -48,7 +47,7 @@ export default function PricingPage() {
             Smart AI Bookkeeping charges a one-time <strong>$2,500</strong>{" "}
             setup per business. Upkeep is optional and starts at{" "}
             <strong>$175/month</strong>. If you want the bookkeeping done for
-            you too, that&rsquo;s priced separately.
+            you too, that starts at <strong>$175/month</strong>.
           </p>
         </div>
       </section>
@@ -106,9 +105,6 @@ export default function PricingPage() {
               included upkeep hour is $175/hour, only with your OK first.
             </p>
           </div>
-        </div>
-        <div className="mx-auto mt-10 max-w-3xl space-y-4">
-          <Todo>Give the starting monthly price for bookkeeping work.</Todo>
         </div>
         <p className="mx-auto mt-10 max-w-3xl text-center text-lg leading-relaxed text-navy/80">
           Upkeep is optional. You own what gets built, and you can keep it

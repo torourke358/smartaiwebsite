@@ -17,7 +17,7 @@ export default function Footer() {
         <div>
           <p className="text-lg font-bold">{siteName}</p>
           <p className="mt-2 text-sm leading-relaxed text-white/70">
-            {tagline}. One-time $2,500 setup, optional upkeep from $175/month.
+            {tagline}. One-time $2,500 setup, optional upkeep from $175/month, bookkeeping from $175/month.
           </p>
         </div>
 

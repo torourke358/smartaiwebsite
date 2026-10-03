@@ -29,7 +29,7 @@ const steps = [
   },
   {
     title: "The Handoff.",
-    body: "Your team starts using it and we fix what real use reveals. Then choose optional upkeep from $175/month, or take the keys. You own what was built either way. If you want the bookkeeping done for you too, that's priced separately.",
+    body: "Your team starts using it and we fix what real use reveals. Then choose optional upkeep from $175/month, or take the keys. You own what was built either way. If you want the bookkeeping done for you too, that starts at $175/month.",
   },
 ];
 
