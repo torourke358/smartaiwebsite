@@ -1,54 +1,34 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
 import CtaBand from "@/components/CtaBand";
+import { bookingUrl } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "The Free SaaS Audit — 45 minutes, no pitch, just the math",
+  title: "Book a Free Accounting Automation Call",
   description:
-    "Bring your software bills and your most annoying manual process. Leave with a one-page memo: the real annual cost of your setup, what we'd build instead, and one fixed price.",
+    "Book a free call with Tim O'Rourke of Smart AI Bookkeeping on Calendly, or send a message. Walk through your accounting department and see what can be automated for a $2,500 setup.",
+  alternates: { canonical: "/audit" },
   openGraph: {
-    title: "The Free SaaS Audit — 45 minutes, no pitch, just the math",
+    title: "Book a Free Call | Smart AI Bookkeeping",
     description:
-      "List every subscription and manual process, see what one custom system would replace, and keep the memo either way.",
+      "Walk through your accounting department with Tim O'Rourke and see which parts can be automated.",
     url: "/audit",
   },
 };
 
 const steps = [
   {
-    title: "The inventory",
-    body: "Subscriptions, spreadsheets, manual steps.",
+    title: "How it runs today",
+    body: "Who enters what, which software you use, and where the month-end gets stuck.",
   },
   {
-    title: "The math",
-    body: "True annual cost of the status quo.",
+    title: "What can be automated",
+    body: "The repetitive entry, coding and matching work that Claude AI can take over.",
   },
   {
-    title: "The memo",
-    body: "What to build, what it costs, what it saves — in writing within 48 hours.",
-  },
-];
-
-const faqs = [
-  {
-    q: "Is it really free?",
-    a: "First ten each quarter, yes — it's how we earn the right to quote.",
-  },
-  {
-    q: "Will you try to sell me?",
-    a: "We'll show you the math; the memo is yours regardless.",
-  },
-  {
-    q: "What if my process is weird?",
-    a: "Weird is the specialty — our flagship client is a yacht.",
-  },
-  {
-    q: "Who builds the app?",
-    a: "Tim, with AI-assisted tooling — that's why it's days, not months.",
-  },
-  {
-    q: "Who maintains it after?",
-    a: "Optional monthly support plan, or we hand you the keys.",
+    title: "What it costs",
+    body: "A one-time $2,500 setup, optional upkeep from $175/month, and bookkeeping work from $175/month if you want it.",
   },
 ];
 
@@ -59,23 +39,27 @@ export default function AuditPage() {
       <section className="bg-navy/5">
         <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 md:py-24">
           <h1 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-            The Free SaaS Audit — 45 minutes, no pitch, just the math.
+            Book a free call.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Bring your software bills and your most annoying manual process.
-            We&rsquo;ll list every subscription you pay for, every hour of
-            hand-work, and what one custom system would replace. You leave with
-            a one-page memo: the real annual cost of your current setup, what
-            we&rsquo;d build instead, and one fixed price. Keep the memo either
-            way.
+            Pick a time on Calendly and we&rsquo;ll walk through your
+            accounting department together: what&rsquo;s done by hand today,
+            what can be automated, and what it would cost. Rather write? Use
+            the form below.
           </p>
+          <a
+            href={bookingUrl}
+            className="mt-8 inline-block rounded-md bg-accent px-6 py-3 text-base font-semibold text-navy transition-colors hover:bg-accent-dark"
+          >
+            Pick a time on Calendly
+          </a>
         </div>
       </section>
 
       {/* Three steps */}
       <section className="mx-auto max-w-5xl px-4 py-16 sm:px-6">
         <h2 className="text-center text-2xl font-bold sm:text-3xl">
-          What happens in 45 minutes
+          What we cover on the call
         </h2>
         <ol className="mt-10 grid gap-6 md:grid-cols-3">
           {steps.map((step, i) => (
@@ -93,30 +77,10 @@ export default function AuditPage() {
         </ol>
       </section>
 
-      {/* Who it's for / not for */}
-      <section className="bg-navy/5">
-        <div className="mx-auto grid max-w-5xl gap-8 px-4 py-16 sm:px-6 md:grid-cols-2">
-          <div>
-            <h2 className="text-2xl font-bold">Who it&rsquo;s for</h2>
-            <p className="mt-4 text-lg leading-relaxed text-navy/80">
-              Owner-run businesses doing real volume through manual processes
-              or almost-fits software.
-            </p>
-          </div>
-          <div>
-            <h2 className="text-2xl font-bold">Who it&rsquo;s not for</h2>
-            <p className="mt-4 text-lg leading-relaxed text-navy/80">
-              Businesses happy with their stack (genuinely — keep it), or
-              anyone shopping for the cheapest possible hourly dev.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* Contact form — emailed straight to Tim */}
       <section className="mx-auto max-w-2xl px-4 py-16 sm:px-6" id="book">
         <h2 className="text-center text-2xl font-bold sm:text-3xl">
-          Request your free audit
+          Or send a message
         </h2>
         <p className="mx-auto mt-4 max-w-xl text-center leading-relaxed text-navy/70">
           Tell me how to reach you and a couple of sentences about what
@@ -128,30 +92,15 @@ export default function AuditPage() {
         </div>
       </section>
 
-      {/* FAQ */}
       <section className="bg-navy/5">
-        <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
-          <h2 className="text-center text-2xl font-bold sm:text-3xl">
-            Frequently asked questions
-          </h2>
-          <div className="mt-8 space-y-3">
-            {faqs.map((faq) => (
-              <details
-                key={faq.q}
-                className="group rounded-xl border border-navy/10 bg-white p-5 shadow-sm"
-              >
-                <summary className="cursor-pointer list-none text-lg font-semibold marker:hidden [&::-webkit-details-marker]:hidden">
-                  <span className="flex items-center justify-between gap-4">
-                    {faq.q}
-                    <span className="text-accent transition-transform group-open:rotate-45" aria-hidden="true">
-                      +
-                    </span>
-                  </span>
-                </summary>
-                <p className="mt-3 leading-relaxed text-navy/80">{faq.a}</p>
-              </details>
-            ))}
-          </div>
+        <div className="mx-auto max-w-3xl px-4 py-12 text-center sm:px-6">
+          <p className="text-lg leading-relaxed text-navy/80">
+            Questions first? Read the{" "}
+            <Link href="/faq" className="font-semibold underline-offset-4 hover:underline">
+              FAQ
+            </Link>
+            .
+          </p>
         </div>
       </section>
 

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Client apps: AI receipt capture, vessel operations, an AI dry-dock planner, a trading journal with an AI coach. Our own products: a 4.7-million-word AI research archive and a live community app with 600+ members.",
   openGraph: {
-    title: "Work — Smart AI Automations",
+    title: "Work | Smart AI Bookkeeping",
     description:
       "Client builds and our own production apps — including a live community with 600+ members. We ship on the same stack we sell.",
     url: "/work",

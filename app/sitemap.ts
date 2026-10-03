@@ -1,15 +1,19 @@
 import type { MetadataRoute } from "next";
+import { industries } from "@/lib/industries";
 import { siteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     "",
-    "/case-study",
-    "/work",
-    "/audit",
+    "/industries",
+    ...industries.map((industry) => `/industries/${industry.slug}`),
+    "/faq",
     "/pricing",
     "/how-it-works",
     "/about",
+    "/case-study",
+    "/work",
+    "/audit",
     "/resources",
   ];
 

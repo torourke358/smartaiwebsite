@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Find out what your software stack really costs in 10 minutes: every subscription, every manual hour, totaled into one honest annual number. Free.",
   openGraph: {
-    title: "The Software Bill Worksheet — Smart AI Automations",
+    title: "The Software Bill Worksheet | Smart AI Bookkeeping",
     description:
       "Every subscription, every manual hour, totaled into one honest annual number. Free — we'll email it to you.",
     url: "/resources",

@@ -18,7 +18,7 @@ export default function VideoEmbed() {
       <iframe
         className="h-full w-full"
         src={`https://www.loom.com/embed/${loomId}`}
-        title="Smart AI Automations demo"
+        title="Smart AI Bookkeeping demo"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
         loading="lazy"

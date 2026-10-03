@@ -2,33 +2,34 @@ import type { Metadata } from "next";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "How It Works — Days, not months",
+  title: "How Accounting Automation Works: Call, Scope, Build, Handoff",
   description:
-    "The Audit, the Scope, the Build, the Handoff. Modern stack plus AI-assisted development is why we deliver custom software in days, not months.",
+    "How Smart AI Bookkeeping automates your accounting department in four steps: a free call, a written scope, the $2,500 build on Claude AI, and a handoff with optional upkeep from $175/month.",
+  alternates: { canonical: "/how-it-works" },
   openGraph: {
-    title: "How It Works — Days, not months. Here's how.",
+    title: "How It Works | Smart AI Bookkeeping",
     description:
-      "Free audit, fixed-price scope in 48 hours, working software in days, then the keys are yours.",
+      "Free call, written scope, $2,500 build on Claude AI, then optional upkeep from $175/month.",
     url: "/how-it-works",
   },
 };
 
 const steps = [
   {
-    title: "The Audit (free, 45 min).",
-    body: "We find the highest-ROI problem and put real numbers on it.",
+    title: "The free call.",
+    body: "Book a time on Calendly. We walk through how your accounting department runs today and find the work that eats the most hours.",
   },
   {
     title: "The Scope (within 48 hours).",
-    body: "What v1 does — and doesn't do — in plain English, with one fixed price. You sign off before anything is built.",
+    body: "What gets automated — and what doesn't — in plain English. Setup is a fixed $2,500 per business. You sign off before anything is built.",
   },
   {
-    title: "The Build (days, not months).",
-    body: "Modern stack plus AI-assisted development is why we're fast. You see working software early, on your phone, with your data.",
+    title: "The Build.",
+    body: "The automations are built on Claude AI around your existing books and process. You see them working on your own data before handoff.",
   },
   {
     title: "The Handoff.",
-    body: "Your team starts using it. We fix what real use reveals. Then: support plan, or the keys. You own the code and the data either way.",
+    body: "Your team starts using it and we fix what real use reveals. Then choose optional upkeep from $175/month, or take the keys. You own what was built either way. If you want the bookkeeping done for you too, that starts at $175/month.",
   },
 ];
 
@@ -38,7 +39,7 @@ export default function HowItWorksPage() {
       <section className="bg-navy/5">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6 md:py-24">
           <h1 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-            Days, not months. Here&rsquo;s how.
+            How accounting automation works.
           </h1>
         </div>
       </section>
@@ -64,15 +65,14 @@ export default function HowItWorksPage() {
       <section className="bg-navy/5">
         <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
           <h2 className="text-2xl font-bold sm:text-3xl">
-            Why we&rsquo;re fast and agencies aren&rsquo;t
+            Built by an accountant, on Claude AI
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Traditional shops quote $25,000+ and 4–10 months because
-            they&rsquo;re paying teams to hand-write everything. We build with
-            AI-assisted tooling on a proven stack (Next.js, Supabase, Claude)
-            and keep scope honest. Same quality bar — our flagship
-            client&rsquo;s crew uses these apps every single day — a fraction
-            of the timeline and price.
+            Tim O&rsquo;Rourke spent 10 years running his own accounting firm
+            and built Alteryx automations as a Senior Accountant at Martin
+            Brower. The automations are built on Claude AI and shaped around
+            how your books actually work. Our first client&rsquo;s crew uses
+            what we built every day.
           </p>
         </div>
       </section>

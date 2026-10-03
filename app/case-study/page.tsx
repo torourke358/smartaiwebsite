@@ -263,17 +263,16 @@ export default function CaseStudyPage() {
             Could this work for your business?
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            If you&rsquo;re paying monthly for software that almost fits — or
-            burning days on a process you do by hand — the first step is the
-            free SaaS Audit: 45 minutes, we list every subscription and manual
-            process, and you see what one custom system would replace. No pitch
-            deck. Just the math.
+            If your books still run on hand-typed entries, spreadsheets, or
+            software that almost fits, the first step is a free call. We walk
+            through your accounting department and you see which parts can be
+            automated.
           </p>
           <Link
             href={calHref}
             className="mt-8 inline-block rounded-md bg-accent px-6 py-3 text-base font-semibold text-navy transition-colors hover:bg-accent-dark"
           >
-            Book the Free SaaS Audit
+            Book a Free Call
           </Link>
         </div>
       </section>
