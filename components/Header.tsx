@@ -32,7 +32,7 @@ export default function Header() {
             href={calHref}
             className="rounded-md bg-accent px-4 py-2 text-sm font-semibold text-navy transition-colors hover:bg-accent-dark"
           >
-            Free SaaS Audit
+            Book a Free Call
           </Link>
         </nav>
 
@@ -70,7 +70,7 @@ export default function Header() {
             className="mt-2 block rounded-md bg-accent px-4 py-3 text-center text-base font-semibold text-navy"
             onClick={() => setOpen(false)}
           >
-            Free SaaS Audit
+            Book a Free Call
           </Link>
         </nav>
       )}

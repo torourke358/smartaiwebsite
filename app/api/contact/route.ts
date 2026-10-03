@@ -54,7 +54,7 @@ export async function POST(req: Request) {
   }
 
   const text = [
-    "New contact request from the Smart AI Automations site.",
+    "New contact request from the Smart AI Bookkeeping site.",
     "",
     `Name:              ${name}`,
     `Email:             ${email}`,

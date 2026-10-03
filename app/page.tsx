@@ -7,29 +7,36 @@ import VideoEmbed from "@/components/VideoEmbed";
 import { calHref } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Smart AI Automations — Replace the software you rent with systems you own",
+  title: {
+    absolute:
+      "Smart AI Bookkeeping — Bookkeeping & Accounting Automation, Lake Bluff IL",
+  },
   description:
-    "Custom apps for small businesses — fixed price, delivered in days, AI built in. Automations start in the hundreds. One client cut a $200/month subscription and got back two days a month.",
+    "Smart AI Bookkeeping automates small-business accounting departments: a one-time $2,500 setup, optional upkeep from $175/month. Tim O'Rourke, Lake Bluff IL, serving the North Shore, Chicago suburbs and remote clients.",
+  alternates: { canonical: "/" },
   openGraph: {
-    title: "Smart AI Automations — Custom apps for small businesses",
+    title: "Smart AI Bookkeeping — Accounting automation for small businesses",
     description:
-      "Replace the software you rent with systems you own. Fixed price, delivered in days, AI built in.",
+      "Automate the repetitive work in your accounting department. $2,500 setup, optional upkeep from $175/month.",
     url: "/",
   },
 };
 
 const cards = [
   {
-    title: "Kill a manual process.",
-    body: "A crew was hand-typing receipts for two days a month. Now they photograph them, AI does the rest, and the report exports itself. That one was $750.",
+    title: "Restaurants",
+    href: "/industries/restaurants",
+    body: "Daily sales entries, vendor invoices and deposit matching, from someone who used Restaurant365 daily for years.",
   },
   {
-    title: "Replace a subscription.",
-    body: "Enterprise software that almost fits, $200 every month, forever — replaced by an app built around how the business actually runs. Paid for itself in 15 months.",
+    title: "Construction",
+    href: "/industries/construction",
+    body: "Job costing, WIP schedules, progress billing, retainage and lien waivers.",
   },
   {
-    title: "One database, not ten logins.",
-    body: "Expenses, inventory, maintenance — one system that knows your business, instead of three products that don't talk.",
+    title: "Medical practices",
+    href: "/industries/medical-practices",
+    body: "Deposit matching, expense coding, payroll entries and a faster month-end close.",
   },
 ];
 
@@ -40,20 +47,21 @@ export default function HomePage() {
       <section className="mx-auto grid max-w-6xl items-center gap-12 px-4 py-16 sm:px-6 md:grid-cols-2 md:py-24">
         <div>
           <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
-            Replace the software you rent with systems you own.
+            Automate your accounting department.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Custom apps for small businesses — fixed price, delivered in days,
-            AI built in. Automations start in the hundreds. One client cut a
-            $200/month subscription and got back two days a month of manual
-            work.
+            Smart AI Bookkeeping uses Claude AI to take the repetitive work out
+            of small-business accounting: data entry, invoice coding, deposit
+            matching and the month-end close. One-time $2,500 setup, optional
+            upkeep from $175/month. Based in Lake Bluff, IL, serving the North
+            Shore, the Chicago suburbs and remote clients.
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <Link
               href={calHref}
               className="rounded-md bg-accent px-6 py-3 text-center text-base font-semibold text-navy transition-colors hover:bg-accent-dark"
             >
-              Book the Free SaaS Audit
+              Book a Free Call
             </Link>
             <Link
               href="/case-study"
@@ -73,29 +81,39 @@ export default function HomePage() {
       {/* The math most owners never do */}
       <section className="bg-navy/5">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6">
-          <h2 className="text-3xl font-bold">The math most owners never do</h2>
+          <h2 className="text-3xl font-bold">
+            Built by someone who&rsquo;s closed the books
+          </h2>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Most small businesses pay for 5–10 software subscriptions that each
-            do part of the job — and still run the important things by hand.
-            Add up the subscriptions. Add the hours of manual work at what your
-            time is worth. That number, every year, forever, is what
-            &ldquo;we&rsquo;ll just keep using what we have&rdquo; actually
-            costs. We build one custom system that replaces the stack — and you
-            own it.
+            Tim O&rsquo;Rourke ran his own accounting firm, Order Up Profits,
+            for 10 years, serving restaurants, construction companies, doctors
+            and travel companies. He was a Senior Accountant at Martin Brower,
+            McDonald&rsquo;s global distributor, and holds an MS in Accounting
+            from DePaul. Now he automates the same work he used to do by hand.
           </p>
+          <Link
+            href="/about"
+            className="mt-6 inline-block font-semibold text-navy underline-offset-4 hover:underline"
+          >
+            More about Tim →
+          </Link>
         </div>
       </section>
 
-      {/* Three cards */}
+      {/* Industry cards */}
       <section className="mx-auto grid max-w-6xl gap-6 px-4 py-16 sm:px-6 md:grid-cols-3">
         {cards.map((card) => (
-          <div
+          <Link
             key={card.title}
+            href={card.href}
             className="rounded-xl border border-navy/10 bg-white p-8 shadow-sm transition-shadow hover:shadow-md"
           >
             <h3 className="text-xl font-bold">{card.title}</h3>
             <p className="mt-3 leading-relaxed text-navy/80">{card.body}</p>
-          </div>
+            <span className="mt-4 inline-block font-semibold text-navy">
+              Read more →
+            </span>
+          </Link>
         ))}
       </section>
 
@@ -146,13 +164,11 @@ export default function HomePage() {
         <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6">
           <h2 className="text-3xl font-bold">Who this is for</h2>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Owner-operated businesses, roughly 3–50 people, with at least one
-            process that runs on spreadsheets, paper, or software that almost
-            fits. Landscaping &amp; tree care, the trades, restoration shops,
-            charter &amp; marine, professional practices — if your crews
-            collect receipts, your equipment is serviced by hours, or your
-            month-end lives in a spreadsheet, we can usually show you working
-            software the same week.
+            Owner-run small businesses whose books still depend on
+            hand-typed entries, spreadsheets and a month-end that drags.
+            Restaurants, construction companies, medical practices, travel
+            companies and other small businesses, on the North Shore, in the
+            Chicago suburbs, or anywhere remotely.
           </p>
         </div>
       </section>

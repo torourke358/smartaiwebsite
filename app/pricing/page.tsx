@@ -1,40 +1,37 @@
 import type { Metadata } from "next";
 import CtaBand from "@/components/CtaBand";
+import Todo from "@/components/Todo";
 
 export const metadata: Metadata = {
-  title: "Automations start in the hundreds",
+  title: "Pricing: $2,500 Setup, Optional Upkeep from $175/Month",
   description:
-    "The audit is free. Automations start in the hundreds — the smallest app I've built and handed over was $750. Every project fixed price, agreed in writing before work starts.",
+    "Smart AI Bookkeeping pricing: a one-time $2,500 setup to automate your accounting department, optional upkeep from $175/month, and bookkeeping work priced separately.",
+  alternates: { canonical: "/pricing" },
   openGraph: {
-    title: "Automations start in the hundreds — Smart AI Automations",
+    title: "Pricing | Smart AI Bookkeeping",
     description:
-      "Free audit, fixed price in writing before work starts, and you own what gets built. The smallest app I've delivered was $750.",
+      "One-time $2,500 setup. Optional upkeep from $175/month. Bookkeeping work priced separately.",
     url: "/pricing",
   },
 };
 
 const tiers = [
   {
-    name: "Single-Problem App",
-    price: "Starts in the hundreds",
-    body: "One app that kills one manual process. Written scope, one price, working software in days.",
-    example:
-      "Example: the AI receipt capture that ended two days a month of data entry was $750.",
-    featured: false,
-  },
-  {
-    name: "Operations System",
-    price: "Quoted after the audit",
-    body: "Multiple modules, one database — your back office in one system you own. Priced against what the manual version is costing you today.",
-    example:
-      "Example: inventory + maintenance + dashboards that replaced a $2,400/year subscription.",
+    name: "Setup",
+    price: "$2,500 one time",
+    body: "We automate your accounting department: the repetitive entry, coding, matching and month-end steps that fit your business. Fixed price per business.",
     featured: true,
   },
   {
-    name: "Support Plan",
-    price: "Optional, always",
-    body: "Hosting, monitoring, fixes, small improvements. Or take the keys and run it yourself — your code, your data, either way.",
-    example: "",
+    name: "Upkeep",
+    price: "From $175/month",
+    body: "Optional. Keeps your automations running, with about an hour of upkeep a month for fixes and small changes when a bank, vendor or app changes something.",
+    featured: false,
+  },
+  {
+    name: "Bookkeeping work",
+    price: "Priced separately",
+    body: "Optional. If you'd rather not run the books yourself, Tim does the ongoing accounting work as well.",
     featured: false,
   },
 ];
@@ -45,14 +42,13 @@ export default function PricingPage() {
       <section className="bg-navy/5">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6 md:py-24">
           <h1 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-            Automations start in the hundreds.
+            $2,500 to automate your accounting department.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Agencies open at $10,000 and run for months. The smallest app
-            I&rsquo;ve built and handed over was <strong>$750</strong> &mdash;
-            and it&rsquo;s the one that gave a captain back two days a month.
-            The audit is free, and you get one fixed price in writing before
-            anything starts.
+            Smart AI Bookkeeping charges a one-time <strong>$2,500</strong>{" "}
+            setup per business. Upkeep is optional and starts at{" "}
+            <strong>$175/month</strong>. If you want the bookkeeping done for
+            you too, that&rsquo;s priced separately.
           </p>
         </div>
       </section>
@@ -83,23 +79,19 @@ export default function PricingPage() {
               >
                 {tier.body}
               </p>
-              {tier.example && (
-                <p
-                  className={`mt-4 text-sm italic ${
-                    tier.featured ? "text-white/60" : "text-navy/60"
-                  }`}
-                >
-                  {tier.example}
-                </p>
-              )}
             </div>
           ))}
         </div>
+        <div className="mx-auto mt-10 max-w-3xl space-y-4">
+          <Todo>
+            Say what the $2,500 setup includes and what would put a business
+            outside it (entities, bank accounts, software connections).
+          </Todo>
+          <Todo>Add how bookkeeping work is priced, or a starting price.</Todo>
+        </div>
         <p className="mx-auto mt-10 max-w-3xl text-center text-lg leading-relaxed text-navy/80">
-          Every project is fixed price, agreed in writing before work starts.
-          If scope grows, we re-quote — you&rsquo;ll never get a surprise
-          invoice. The price comes from what the manual version costs you, so
-          the only way to know it is the free 45-minute audit.
+          Upkeep is optional. You own what gets built, and you can keep it
+          running yourself if you prefer. The first step is a free call.
         </p>
       </section>
 
