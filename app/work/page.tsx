@@ -31,32 +31,6 @@ const clientBuilds = [
   },
 ];
 
-const ownBuilds = [
-  {
-    title: "The Archive — Civil War research AI",
-    href: "https://civil-war-ai-frontend.vercel.app",
-    stat: "4.7M words · 2,100+ primary sources",
-    body: "Ask any question about the Civil War and it writes a cited, multi-act story from memoirs, newspapers, official records, and slave narratives — every quote traceable to its source. Try it: it's the clearest demo of what modern AI can do with a business's own documents.",
-  },
-  {
-    title: "Lemon Lyman — a fan community",
-    href: "https://lemonlyman.app",
-    stat: "600+ members, growing every week",
-    body: "A social community for West Wing fans — real accounts, real photos, real traffic. Built, launched, and operated by us: when launch-week load got expensive, we re-engineered image delivery and cut page weight ~99%. Running a production app with hundreds of daily users is different from demo-ware — this is that proof.",
-  },
-  {
-    title: "Plate Check — AI nutrition coach",
-    href: "https://plate-check-seven.vercel.app",
-    stat: "Photo → calories, automatically",
-    body: "Photograph your plate and AI estimates the meal and logs the calories — the same capture-and-extract pattern as the receipt app, pointed at dinner. Includes an AI coach that plans training and reads progress photos.",
-  },
-  {
-    title: "The Tavern — for D&D players",
-    href: "https://the-tavern-kappa.vercel.app",
-    stat: "Full community platform, themed end-to-end",
-    body: "The community platform re-themed for a completely different audience — proof the systems we build are reusable engines, not one-offs.",
-  },
-];
 
 // ---------------------------------------------------------------------------
 // Group case study. The work is real (Tim's 2026 engagement, client
@@ -421,38 +395,6 @@ export default function WorkPage() {
               )}
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* Our own products */}
-      <section className="bg-navy/5">
-        <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6">
-          <h2 className="text-2xl font-bold sm:text-3xl">
-            Our own products — live right now
-          </h2>
-          <p className="mt-3 max-w-3xl text-navy/70">
-            Apps we built for ourselves, running in production, that you can
-            open in another tab.
-          </p>
-          <div className="mt-8 grid gap-6 md:grid-cols-2">
-            {ownBuilds.map((b) => (
-              <a
-                key={b.title}
-                href={b.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex flex-col rounded-xl border border-navy/10 bg-white p-8 shadow-sm transition-shadow hover:shadow-md"
-              >
-                <h3 className="text-xl font-bold group-hover:text-accent-dark">
-                  {b.title} <span aria-hidden>↗</span>
-                </h3>
-                <p className="mt-1 text-sm font-semibold uppercase tracking-wide text-navy/50">
-                  {b.stat}
-                </p>
-                <p className="mt-3 leading-relaxed text-navy/80">{b.body}</p>
-              </a>
-            ))}
-          </div>
         </div>
       </section>
 
