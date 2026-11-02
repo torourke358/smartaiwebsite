@@ -80,7 +80,7 @@ export default function AboutPage() {
             hold an MS in Accounting from DePaul University.
           </p>
         </div>
-        <Screenshot file="tim-portrait.png" alt="Photo of Tim O'Rourke" aspect="square" />
+        <Screenshot file="tim-portrait.jpg" alt="Tim O'Rourke in his backyard holding a chicken" aspect="square" />
       </section>
 
       <section className="bg-navy/5">
