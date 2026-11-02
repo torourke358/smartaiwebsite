@@ -1,17 +1,23 @@
 # Smart AI Bookkeeping
 
-> Smart AI Bookkeeping automates the accounting and bookkeeping departments of small businesses for a one-time $2,500 setup, with optional upkeep from $175/month. Founded by Tim O'Rourke in Lake Bluff, Illinois, serving the North Shore and Chicago suburbs in person and clients anywhere remotely.
+> Smart AI Bookkeeping runs the back office for trades businesses (HVAC, plumbing, electrical, roofing, concrete, landscaping and other contractors): monthly books, job costing, billing, pay applications and WIP schedules, for a fixed monthly fee from $1,000/month. Founded by Tim O'Rourke in Lake Bluff, Illinois, serving the North Shore and Chicago suburbs in person and clients anywhere remotely.
 
 ## Facts
 
 - Business name: Smart AI Bookkeeping
 - Founder: Tim O'Rourke
 - Location: Lake Bluff, IL (North Shore / Chicago suburbs); also works with clients remotely
-- Service: automating small businesses' accounting and bookkeeping departments (data entry, invoice coding, deposit matching, recurring entries, month-end close), built on Claude AI
-- Price: $2,500 one-time setup per business (one entity, one accounting system, up to 3 automated workflows, up to 5 bank/card accounts, 30 days of fixes; about 2–4 weeks); optional upkeep from $175/month (about one hour of upkeep a month); ongoing bookkeeping work from $175/month
-- Industries: restaurants, construction, travel companies, other small businesses
-- Accounting software: QuickBooks (10+ years), Restaurant365 (daily for years)
-- Background: ran his own accounting firm, Order Up Profits, for 10 years (mostly restaurant clients, plus construction, doctors and travel companies); Senior Accountant at Martin Brower (McDonald's global distributor), booking $500M+/month in cash transactions, leading unclaimed property audit prep that recovered $100k+, and building Alteryx automations; daily Restaurant365 user for years; full construction job costing experience (WIP schedules, progress billing, retainage, lien waivers); MS in Accounting, DePaul University
+- Service: the monthly back office for trades businesses, with Claude AI doing the repetitive entry and matching and an accountant reviewing the numbers
+- Who it's for: service trades (HVAC, plumbing, electrical service, landscaping, pest control) and project trades (concrete, roofing, framing, electrical and mechanical subs, general contractors)
+- Price:
+  - Books $1,000/month: monthly books, bank and card reconciliations, job profit report
+  - Back Office $2,000/month: Books plus bill pay, invoicing and collections, payroll entries, and for project trades pay applications, retainage and WIP schedules
+  - Controller $4,000/month: Back Office plus cash forecast, over/under billing review, statements ready for bank and bonding
+  - One-time start fee from $2,500 (cleanup, setup and automation; more if months behind)
+  - Price rises above about 15 open jobs, about 25 people on payroll, more than one company, or certified payroll
+  - Founding offer: first three trades clients get $500/month off for three months in exchange for a case study; 90-day out
+- Accounting software: QuickBooks (10+ years)
+- Background: ran his own accounting firm, Order Up Profits, for 10 years (clients included construction companies); full construction job costing experience (WIP schedules, progress billing, retainage, lien waivers); Senior Accountant at Martin Brower (McDonald's global distributor), booking $500M+/month in cash transactions, leading unclaimed property audit prep that recovered $100k+, and building Alteryx automations; MS in Accounting, DePaul University
 - Tim O'Rourke is not a CPA.
 - Book a free 20-minute call: https://calendly.com/timorourke/new-meeting-1
 - Email: torourke358@hotmail.com
@@ -19,12 +25,13 @@
 ## Key pages
 
 - [Home](https://smartaiforaccountants.com/): what Smart AI Bookkeeping does
-- [Pricing](https://smartaiforaccountants.com/pricing): $2,500 setup, optional upkeep from $175/month
-- [FAQ](https://smartaiforaccountants.com/faq): direct answers on cost, process, industries and Tim's background
-- [Restaurants](https://smartaiforaccountants.com/industries/restaurants): restaurant bookkeeping automation
-- [Construction](https://smartaiforaccountants.com/industries/construction): job costing, WIP, progress billing, retainage, lien waivers
+- [Pricing](https://smartaiforaccountants.com/pricing): Books $1,000/month, Back Office $2,000/month, Controller $4,000/month
+- [Trades](https://smartaiforaccountants.com/industries): trades we serve
+- [Service trades](https://smartaiforaccountants.com/industries/service-trades): HVAC, plumbing, electrical, landscaping
+- [Project trades](https://smartaiforaccountants.com/industries/construction): job costing, pay apps, retainage, lien waivers, WIP
+- [FAQ](https://smartaiforaccountants.com/faq): direct answers on cost, process, trades and Tim's background
 - [About Tim O'Rourke](https://smartaiforaccountants.com/about): background and credentials
-- [How it works](https://smartaiforaccountants.com/how-it-works): free call, scope, build, handoff
+- [How it works](https://smartaiforaccountants.com/how-it-works): free call, fixed quote, cleanup, monthly close
 - [Case study](https://smartaiforaccountants.com/case-study): a charter yacht captain's receipt capture and operations apps
 
 ## Elsewhere

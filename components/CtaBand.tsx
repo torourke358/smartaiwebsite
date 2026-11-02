@@ -3,7 +3,7 @@ import { calHref } from "@/lib/site";
 
 // Global CTA band — appears at the bottom of every page.
 export default function CtaBand({
-  heading = "See which parts of your accounting department can run themselves.",
+  heading = "Get back to running jobs. We’ll keep the books.",
 }: {
   heading?: string;
 }) {

@@ -4,14 +4,14 @@ import CtaBand from "@/components/CtaBand";
 import { industries } from "@/lib/industries";
 
 export const metadata: Metadata = {
-  title: "Industries: Restaurant & Construction Accounting Automation",
+  title: "Trades We Serve: HVAC, Plumbing, Electrical, Roofing, Concrete & More",
   description:
-    "Smart AI Bookkeeping automates accounting for restaurants, construction companies, travel companies and other small businesses in the Chicago suburbs and remotely.",
+    "Smart AI Bookkeeping runs the back office for trades businesses: HVAC, plumbing, electrical, roofing, concrete, landscaping, general contractors and other trades, in the Chicago suburbs and remotely.",
   alternates: { canonical: "/industries" },
   openGraph: {
-    title: "Industries we automate | Smart AI Bookkeeping",
+    title: "Trades we serve | Smart AI Bookkeeping",
     description:
-      "Accounting automation for restaurants, construction companies and other small businesses.",
+      "The back office for service trades and project trades.",
     url: "/industries",
   },
 };
@@ -22,13 +22,13 @@ export default function IndustriesPage() {
       <section className="bg-navy/5">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6 md:py-24">
           <h1 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-            Industries we automate
+            Trades we serve
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Smart AI Bookkeeping automates the accounting departments of small
-            businesses. Tim O&rsquo;Rourke&rsquo;s accounting firm served
-            restaurants, construction companies, doctors and travel companies
-            for 10 years, so those are the books he knows best.
+            Smart AI Bookkeeping runs the back office for trades businesses.
+            Every trade has the same problem: jobs, crews, materials and
+            getting paid, with books that fall behind while the owner is out
+            on the job.
           </p>
         </div>
       </section>
@@ -53,12 +53,11 @@ export default function IndustriesPage() {
 
       <section className="bg-navy/5">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6">
-          <h2 className="text-2xl font-bold sm:text-3xl">Other small businesses</h2>
+          <h2 className="text-2xl font-bold sm:text-3xl">Don&rsquo;t see your trade?</h2>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Travel companies and other owner-run businesses have the same core
-            work: entering bills, matching deposits, recording payroll and
-            closing the month. If your books still run on hand-typed entries
-            and spreadsheets, book a free call and we&rsquo;ll look at yours.
+            Painters, flooring, fencing, pool, garage door, cleaning,
+            remodelers: if you run crews on jobs and the books are behind,
+            book a free call and we&rsquo;ll look at yours.
           </p>
         </div>
       </section>

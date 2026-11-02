@@ -9,34 +9,34 @@ import { calHref } from "@/lib/site";
 export const metadata: Metadata = {
   title: {
     absolute:
-      "Smart AI Bookkeeping — Bookkeeping & Accounting Automation, Lake Bluff IL",
+      "Smart AI Bookkeeping — Back Office for Trades Businesses, Lake Bluff IL",
   },
   description:
-    "Smart AI Bookkeeping automates small-business accounting departments: a one-time $2,500 setup, optional upkeep from $175/month. Tim O'Rourke, Lake Bluff IL, serving the North Shore, Chicago suburbs and remote clients.",
+    "Smart AI Bookkeeping runs the back office for HVAC, plumbing, electrical, roofing, concrete and other trades businesses: monthly books, job costing, billing, pay apps and WIP. From $1,000/month. Tim O'Rourke, Lake Bluff IL, serving the North Shore, Chicago suburbs and remote clients.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Smart AI Bookkeeping — Accounting automation for small businesses",
+    title: "Smart AI Bookkeeping — The back office for the trades",
     description:
-      "Automate the repetitive work in your accounting department. $2,500 setup, optional upkeep from $175/month.",
+      "Monthly books, job costing, billing, pay apps and WIP for trades businesses. From $1,000/month.",
     url: "/",
   },
 };
 
 const cards = [
   {
-    title: "Restaurants",
-    href: "/industries/restaurants",
-    body: "Daily sales entries, vendor invoices and deposit matching, from someone who used Restaurant365 daily for years.",
+    title: "Service trades",
+    href: "/industries/service-trades",
+    body: "HVAC, plumbing, electrical service, landscaping, pest control. Lots of small jobs: invoices, collections, job profit and payroll.",
   },
   {
-    title: "Construction",
+    title: "Project trades",
     href: "/industries/construction",
-    body: "Job costing, WIP schedules, progress billing, retainage and lien waivers.",
+    body: "Concrete, roofing, framing, electrical and mechanical subs, general contractors. Pay applications, retainage, WIP schedules and lien waivers.",
   },
   {
-    title: "Other small businesses",
-    href: "/industries",
-    body: "Entering bills, matching deposits, recording payroll and closing the month, for travel companies and other owner-run businesses.",
+    title: "Pricing",
+    href: "/pricing",
+    body: "One fixed monthly price. Books $1,000, Back Office $2,000, Controller $4,000. Founding clients get $500/month off.",
   },
 ];
 
@@ -47,14 +47,15 @@ export default function HomePage() {
       <section className="mx-auto grid max-w-6xl items-center gap-12 px-4 py-16 sm:px-6 md:grid-cols-2 md:py-24">
         <div>
           <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
-            Automate your accounting department.
+            We run the back office for the trades.
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Smart AI Bookkeeping uses Claude AI to take the repetitive work out
-            of small-business accounting: data entry, invoice coding, deposit
-            matching and the month-end close. One-time $2,500 setup, optional
-            upkeep from $175/month. Based in Lake Bluff, IL, serving the North
-            Shore, the Chicago suburbs and remote clients.
+            Monthly books, job costing, bills, invoicing, pay applications and
+            WIP schedules for HVAC, plumbing, electrical, roofing, concrete and
+            other trades businesses. You run the jobs. We keep the numbers
+            right, using Claude AI to take the typing out. From $1,000/month.
+            Based in Lake Bluff, IL, serving the North Shore, the Chicago
+            suburbs and remote clients.
           </p>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <Link
@@ -86,10 +87,11 @@ export default function HomePage() {
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
             Tim O&rsquo;Rourke ran his own accounting firm, Order Up Profits,
-            for 10 years, serving restaurants, construction companies, doctors
-            and travel companies. He was a Senior Accountant at Martin Brower,
-            McDonald&rsquo;s global distributor, and holds an MS in Accounting
-            from DePaul. Now he automates the same work he used to do by hand.
+            for 10 years, with construction companies among its clients, and
+            has full construction job costing experience: WIP schedules,
+            progress billing, retainage and lien waivers. He was a Senior
+            Accountant at Martin Brower, McDonald&rsquo;s global distributor,
+            and holds an MS in Accounting from DePaul.
           </p>
           <Link
             href="/about"
@@ -164,11 +166,11 @@ export default function HomePage() {
         <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6">
           <h2 className="text-3xl font-bold">Who this is for</h2>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Owner-run small businesses whose books still depend on
-            hand-typed entries, spreadsheets and a month-end that drags.
-            Restaurants, construction companies, travel
-            companies and other small businesses, on the North Shore, in the
-            Chicago suburbs, or anywhere remotely.
+            Owner-run trades businesses that are too busy running jobs to keep
+            the books current, and too small for a full-time controller.
+            HVAC, plumbing, electrical, roofing, concrete, landscaping and
+            other contractors, on the North Shore, in the Chicago suburbs, or
+            anywhere remotely.
           </p>
         </div>
       </section>

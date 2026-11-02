@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import CtaBand from "@/components/CtaBand";
 
 export const metadata: Metadata = {
-  title: "How Accounting Automation Works: Call, Scope, Build, Handoff",
+  title: "How It Works: Free Call, Fixed Quote, Cleanup, Monthly Close",
   description:
-    "How Smart AI Bookkeeping automates your accounting department in four steps: a free call, a written scope, the $2,500 build on Claude AI, and a handoff with optional upkeep from $175/month.",
+    "How Smart AI Bookkeeping takes over the back office for a trades business: a free call, a fixed monthly quote, a cleanup and setup, then closed books and job profit reports every month.",
   alternates: { canonical: "/how-it-works" },
   openGraph: {
     title: "How It Works | Smart AI Bookkeeping",
     description:
-      "Free call, written scope, $2,500 build on Claude AI, then optional upkeep from $175/month.",
+      "Free call, fixed monthly quote, cleanup and setup, then your books closed every month.",
     url: "/how-it-works",
   },
 };
@@ -17,19 +17,19 @@ export const metadata: Metadata = {
 const steps = [
   {
     title: "The free call.",
-    body: "Book a time on Calendly. We walk through how your accounting department runs today and find the work that eats the most hours.",
+    body: "Twenty minutes. How your books run today, how many jobs and people you have, and where things fall behind.",
   },
   {
-    title: "The Scope (within 48 hours).",
-    body: "What gets automated — and what doesn't — in plain English. Setup is a fixed $2,500 per business. You sign off before anything is built.",
+    title: "A fixed quote (within 48 hours).",
+    body: "One monthly price and one start fee, in writing, in plain English. Nothing starts until you sign off.",
   },
   {
-    title: "The Build.",
-    body: "The automations are built on Claude AI around your existing books and process. You see them working on your own data before handoff.",
+    title: "Cleanup and setup.",
+    body: "We clean up your books, set up your jobs, vendors and bank feeds, and build the automations that take the typing out of the monthly work.",
   },
   {
-    title: "The Handoff.",
-    body: "Your team starts using it and we fix what real use reveals. Then choose optional upkeep from $175/month, or take the keys. You own what was built either way. If you want the bookkeeping done for you too, that starts at $175/month.",
+    title: "Every month after.",
+    body: "Your books get closed, your bills and invoices handled, and you get a job profit report you can read in five minutes. Project trades also get pay apps and the WIP schedule. You can leave after 90 days if it isn't working.",
   },
 ];
 
@@ -39,7 +39,7 @@ export default function HowItWorksPage() {
       <section className="bg-navy/5">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6 md:py-24">
           <h1 className="text-3xl font-bold leading-tight tracking-tight sm:text-4xl">
-            How accounting automation works.
+            How it works.
           </h1>
         </div>
       </section>
@@ -65,14 +65,13 @@ export default function HowItWorksPage() {
       <section className="bg-navy/5">
         <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
           <h2 className="text-2xl font-bold sm:text-3xl">
-            Built by an accountant, on Claude AI
+            An accountant, with Claude AI doing the typing
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
             Tim O&rsquo;Rourke spent 10 years running his own accounting firm
             and built Alteryx automations as a Senior Accountant at Martin
-            Brower. The automations are built on Claude AI and shaped around
-            how your books actually work. Our first client&rsquo;s crew uses
-            what we built every day.
+            Brower. Claude AI handles the repetitive entry and matching. Tim
+            reviews the numbers and is the person you call.
           </p>
         </div>
       </section>
