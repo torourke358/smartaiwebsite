@@ -74,10 +74,6 @@ export const faqSections: { heading: string; items: FaqItem[] }[] = [
         a: "Tim O'Rourke is the founder of Smart AI Bookkeeping in Lake Bluff, Illinois. He ran his own accounting firm, Order Up Profits, for 10 years, was a Senior Accountant at Martin Brower (McDonald's global distributor), and holds an MS in Accounting from DePaul University.",
       },
       {
-        q: "Is Tim O'Rourke a CPA?",
-        a: "No. Tim O'Rourke is not a CPA. He holds an MS in Accounting from DePaul University and has more than 10 years of hands-on accounting and bookkeeping experience.",
-      },
-      {
         q: "Where are you located?",
         a: "Smart AI Bookkeeping is based in Lake Bluff, Illinois. It serves the North Shore and the Chicago suburbs in person, and clients anywhere remotely.",
       },
