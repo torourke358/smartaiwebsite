@@ -96,7 +96,7 @@ export default function IndustryPage({ params }: Props) {
       <section className="bg-navy/5">
         <div className="mx-auto grid max-w-5xl gap-12 px-4 py-16 sm:px-6 md:grid-cols-2">
           <div>
-            <h2 className="text-2xl font-bold sm:text-3xl">What we automate</h2>
+            <h2 className="text-2xl font-bold sm:text-3xl">What we handle</h2>
             <ul className="mt-6 space-y-3 text-lg leading-relaxed text-navy/80">
               {industry.automations.map((item) => (
                 <li key={item} className="flex gap-3">
@@ -108,8 +108,8 @@ export default function IndustryPage({ params }: Props) {
               ))}
             </ul>
             <p className="mt-6 leading-relaxed text-navy/70">
-              The free call decides which of these fit your business. The
-              automations run on Claude AI and are reviewed by a person.
+              The free call decides what fits your business. Claude AI takes
+              the typing out; Tim reviews the numbers.
             </p>
           </div>
           <div>
@@ -139,10 +139,10 @@ export default function IndustryPage({ params }: Props) {
       <section className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
         <h2 className="text-2xl font-bold sm:text-3xl">What it costs</h2>
         <p className="mt-6 text-lg leading-relaxed text-navy/80">
-          Setup is a one-time <strong>$2,500</strong> per business. Upkeep is
-          optional and starts at <strong>$175/month</strong> for about an hour
-          of upkeep a month. If you also want the bookkeeping done for you,
-          that work starts at <strong>$175/month</strong>.{" "}
+          One fixed monthly price: Books <strong>$1,000/month</strong>, Back
+          Office <strong>$2,000/month</strong> or Controller{" "}
+          <strong>$4,000/month</strong>, plus a one-time start fee from{" "}
+          <strong>$2,500</strong> to clean up and set up your books.{" "}
           <Link href="/pricing" className="font-semibold underline-offset-4 hover:underline">
             See pricing
           </Link>

@@ -19,7 +19,9 @@ export type Industry = {
 
 const allIndustries: Industry[] = [
   {
+    // Hidden 2 Nov 2026: Tim moved the business to trades only.
     slug: "restaurants",
+    hidden: true,
     name: "Restaurants",
     title: "Restaurant Bookkeeping Automation near Chicago",
     description:
@@ -67,14 +69,55 @@ const allIndustries: Industry[] = [
     },
   },
   {
-    slug: "construction",
-    name: "Construction",
-    title: "Construction Accounting Automation: Job Costing & WIP",
+    slug: "service-trades",
+    name: "Service trades",
+    title: "Bookkeeping for HVAC, Plumbing & Electrical Contractors near Chicago",
     description:
-      "Automate construction accounting: job costing, WIP schedules, progress billing, retainage and lien waiver tracking. $2,500 setup by Tim O'Rourke. Lake Bluff, IL, serving Chicago suburbs.",
-    h1: "Construction accounting automation",
+      "Monthly books, job profit, invoicing, collections and payroll entries for HVAC, plumbing, electrical, landscaping and other service trades. From $1,000/month. Tim O'Rourke, Lake Bluff, IL.",
+    h1: "The back office for service trades",
     intro:
-      "Smart AI Bookkeeping automates the accounting work that slows down small construction companies: job costing, WIP schedules, progress billing, retainage and lien waiver tracking. Setup is a one-time $2,500. Tim O'Rourke has full construction job costing experience.",
+      "Smart AI Bookkeeping runs the books for HVAC, plumbing, electrical service, landscaping, pest control and other service trades: monthly books, job profit, invoicing, collections and payroll entries. Plans start at $1,000/month, and most service businesses pick Back Office at $2,000/month.",
+    painPoints: [
+      {
+        title: "Hundreds of small jobs",
+        body: "Every service call is its own invoice, its own parts and its own labor. When the books lag, nobody knows which kinds of jobs actually make money.",
+      },
+      {
+        title: "Money you've earned but not collected",
+        body: "Unbilled work and invoices nobody chases are the quietest way a busy shop runs short on cash.",
+      },
+      {
+        title: "Payroll and job cost",
+        body: "Technician hours have to land on the right jobs, or your job profit numbers are guesses.",
+      },
+      {
+        title: "Books that are always behind",
+        body: "The owner is on a roof or in a basement all day. The books get done at night, or not at all.",
+      },
+    ],
+    automations: [
+      "Monthly books, closed and reviewed",
+      "Bank and credit card reconciliations",
+      "Customer invoicing and collections follow-up",
+      "Vendor bills and parts coded to jobs",
+      "Payroll entries and a job profit report every month",
+    ],
+    experience: [
+      "Ran his own accounting firm, Order Up Profits, for 10 years.",
+      "More than 10 years on QuickBooks.",
+      "Full job costing experience.",
+      "MS in Accounting, DePaul University.",
+    ],
+  },
+  {
+    slug: "construction",
+    name: "Project trades & construction",
+    title: "Construction Bookkeeping: Job Costing, Pay Apps & WIP near Chicago",
+    description:
+      "The back office for concrete, roofing, framing, electrical and mechanical subs and general contractors: job costing, pay applications, retainage, lien waivers and WIP schedules. Back Office from $2,000/month. Tim O'Rourke, Lake Bluff, IL.",
+    h1: "The back office for project trades",
+    intro:
+      "Smart AI Bookkeeping runs the back office for concrete, roofing, framing, electrical and mechanical subs and general contractors: job costing, pay applications, retainage, lien waivers and the monthly WIP schedule. Back Office is $2,000/month; bigger or bonded contractors pick Controller at $4,000/month. Tim O'Rourke has full construction job costing experience.",
     painPoints: [
       {
         title: "Job costing that lags the job",
@@ -95,10 +138,10 @@ const allIndustries: Industry[] = [
     ],
     automations: [
       "Coding incoming bills and costs to jobs",
-      "Building the monthly WIP schedule from your books",
-      "Progress billing support and retainage tracking",
+      "Pay applications and retainage tracking",
+      "The monthly WIP schedule, with over/under billing",
       "Lien waiver tracking before payments go out",
-      "Month-end close and job profitability reports",
+      "Month-end close and job profit reports",
     ],
     experience: [
       "Full construction job costing experience: WIP schedules, progress billing, retainage and lien waivers.",

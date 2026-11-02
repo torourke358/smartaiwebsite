@@ -260,13 +260,12 @@ export default function CaseStudyPage() {
       <section className="bg-navy/5">
         <div className="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6">
           <h2 className="text-2xl font-bold sm:text-3xl">
-            Could this work for your business?
+            Could this work for your trades business?
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            If your books still run on hand-typed entries, spreadsheets, or
-            software that almost fits, the first step is a free call. We walk
-            through your accounting department and you see which parts can be
-            automated.
+            The same approach now runs the back office for trades
+            businesses: Claude AI takes the typing out, and an accountant keeps
+            the numbers right. The first step is a free call.
           </p>
           <Link
             href={calHref}

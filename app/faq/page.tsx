@@ -6,14 +6,14 @@ import { allFaqItems, faqSections } from "@/lib/faq";
 import { faqJsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Bookkeeping Automation FAQ: Cost, Industries, Process",
+  title: "Trades Bookkeeping FAQ: Cost, Trades, Process",
   description:
-    "Straight answers about Smart AI Bookkeeping: what gets automated, the $2,500 setup and $175/month optional upkeep, restaurants and construction, and who Tim O'Rourke is.",
+    "Straight answers about Smart AI Bookkeeping: what the back office covers, monthly pricing from $1,000/month, which trades we serve, and who Tim O'Rourke is.",
   alternates: { canonical: "/faq" },
   openGraph: {
-    title: "Bookkeeping Automation FAQ | Smart AI Bookkeeping",
+    title: "FAQ | Smart AI Bookkeeping",
     description:
-      "What gets automated, what it costs, which industries, and who does the work.",
+      "What's covered, what it costs, which trades, and who does the work.",
     url: "/faq",
   },
 };
@@ -37,8 +37,8 @@ export default function FaqPage() {
             Frequently asked questions
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Straight answers about automating your accounting department with
-            Smart AI Bookkeeping.
+            Straight answers about having Smart AI Bookkeeping run your back
+            office.
           </p>
         </div>
       </section>

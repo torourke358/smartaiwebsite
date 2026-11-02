@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About Tim O'Rourke | Smart AI Bookkeeping",
     description:
-      "10 years running an accounting firm, Senior Accountant at Martin Brower, MS in Accounting from DePaul. Now automating small-business accounting departments.",
+      "10 years running an accounting firm, Senior Accountant at Martin Brower, MS in Accounting from DePaul. Now running the back office for trades businesses.",
     url: "/about",
   },
 };
@@ -49,8 +49,8 @@ export default function AboutPage() {
             Tim O&rsquo;Rourke, founder of Smart AI Bookkeeping
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-navy/80">
-            Smart AI Bookkeeping automates the accounting and bookkeeping
-            departments of small businesses. It&rsquo;s based in Lake Bluff,
+            Smart AI Bookkeeping runs the back office for trades businesses.
+            It&rsquo;s based in Lake Bluff,
             Illinois, and serves the North Shore and Chicago suburbs in person
             and clients anywhere remotely.
           </p>
@@ -74,11 +74,10 @@ export default function AboutPage() {
             automations to take manual steps out of the work.
           </p>
           <p>
-            Smart AI Bookkeeping puts those two things together: the
-            small-business books I know, and automation built on Claude AI.
-            Setup is a one-time $2,500 per business, with optional upkeep from
-            $175/month. I hold an MS in Accounting from DePaul University. I am
-            not a CPA.
+            Smart AI Bookkeeping puts those two things together for trades
+            businesses: the job costing, WIP and month-end work I know, with
+            Claude AI taking the typing out. Plans start at $1,000/month. I
+            hold an MS in Accounting from DePaul University. I am not a CPA.
           </p>
         </div>
         <Screenshot file="tim-portrait.png" alt="Photo of Tim O'Rourke" aspect="square" />
