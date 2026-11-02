@@ -36,7 +36,7 @@ const facts = [
   },
   {
     title: "MS in Accounting, DePaul University",
-    body: "Tim is not a CPA. His work is bookkeeping, accounting operations and automation.",
+    body: "His work is bookkeeping, accounting operations and automation.",
   },
 ];
 
@@ -77,7 +77,7 @@ export default function AboutPage() {
             Smart AI Bookkeeping puts those two things together for trades
             businesses: the job costing, WIP and month-end work I know, with
             Claude AI taking the typing out. Plans start at $1,000/month. I
-            hold an MS in Accounting from DePaul University. I am not a CPA.
+            hold an MS in Accounting from DePaul University.
           </p>
         </div>
         <Screenshot file="tim-portrait.png" alt="Photo of Tim O'Rourke" aspect="square" />
